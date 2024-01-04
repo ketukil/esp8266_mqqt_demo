@@ -23,12 +23,12 @@
 
 /************************* WiFi Access Point *********************************/
 #ifdef REMOTE_CLIENT
-#define WLAN_SSID "pipBoyA6"
-#define WLAN_PASS "jeanlucpicard"
+#define WLAN_SSID "YourOtherWiFiName"
+#define WLAN_PASS "YourOtherWifiPassword"
 #endif
 #ifdef HOME_CLIENT
-#define WLAN_SSID ".:[0.o]:."
-#define WLAN_PASS "H3l4j3d3b3l4guz1c4"
+#define WLAN_SSID "YourWiFiName"
+#define WLAN_PASS "YourWirelessPassoword"
 #endif
 
 #define WIFI_DELAY 500
@@ -45,7 +45,7 @@ char passwd[32] = "";
 #define AIO_SERVER "io.adafruit.com"
 #define AIO_SERVERPORT 1883
 #define AIO_USERNAME "ketukil"
-#define AIO_KEY "08c3bfd47520403b82bbb4f6ba4847db"
+#define AIO_KEY "0102030405060708090a0b0c0d0e0f00" // Your Adafruit.io API key
 #ifdef ESP8266
 #ifdef REMOTE_CLIENT
 #define AIO_CID "ESP8266_REMOTE_CLEINT"
