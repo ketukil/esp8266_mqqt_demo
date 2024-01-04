@@ -44,7 +44,7 @@ char passwd[32] = "";
 /************************* Adafruit.io Setup *********************************/
 #define AIO_SERVER "io.adafruit.com"
 #define AIO_SERVERPORT 1883
-#define AIO_USERNAME "ketukil"
+#define AIO_USERNAME "YourAdafruitUserName"
 #define AIO_KEY "0102030405060708090a0b0c0d0e0f00" // Your Adafruit.io API key
 #ifdef ESP8266
 #ifdef REMOTE_CLIENT
